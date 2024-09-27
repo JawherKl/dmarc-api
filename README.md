@@ -33,9 +33,11 @@ This is a Flask application that provides an API to check DMARC records for a gi
 
 ### Using docker
 1. Build Docker image:
+   ```bash
     docker build -t checkdmarc-api .
 
 2. Run the Docker container:
+   ```bash
     docker run -d -p 5000:5000 --name checkdmarc-api checkdmarc-api
 
 ## API Usage
